@@ -176,8 +176,8 @@
 						</div>
 
 						<div class="row">
-							<div class="col-lg-12" style="overflow-y:scroll;">
-								<div class="video-list" >
+							<div class="col-lg-12" >
+								<div class="video-list" style="overflow-y:scroll;" >
 									<h3 ng-show="isEmpty" class="text-center"><span class="glyphicon glyphicon-ban-circle text-muted"></span><br>ricarica la pagina o ripassa più tardi!</h3>
 									<div class="media" ng-repeat="video in videos" ng-click="playVideo(video, true)">
 										<img ng-src="{{video.snippet.thumbnails.default.url}}" class="pull-left">
