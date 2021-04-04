@@ -4,7 +4,6 @@ var ytplayer_ready = false;
 var ytplayer_api_ready = false;
 
 var gapiKey = 'AIzaSyBqWvvDDHw7JNG-dm-mGuoBBetp2UGOH4Y';
-#AIzaSyCw4rG9w1P8z_2qSQ6q_bSnsuhSs5wEjq4
 function gapiLoad(){
 	gapi.client.setApiKey(gapiKey);
 	gapi.client.load('youtube', 'v3', function(response) {var scope = angular.element($('#videoctrl')).scope();scope.$apply(function(){scope.yt_api_ready = true;});});
