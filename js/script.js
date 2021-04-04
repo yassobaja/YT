@@ -161,7 +161,7 @@ function avoidFlickering(){
 				part: 'snippet,statistics',
 				chart: 'mostPopular',
 				videoCategoryId: $scope.currentCategory,
-				maxResults: 5,
+				maxResults: 25,
 				pageToken: next
 			};
 			if($scope.currentCountry !== ''){
